@@ -1,9 +1,11 @@
-import './App.css';
+import "./App.css";
+import Counter from "./features/counter/Counter";
+import "./index.css";
 
 function App() {
   return (
-    <main className='App'>
-
+    <main className="App">
+      <Counter />
     </main>
   );
 }
